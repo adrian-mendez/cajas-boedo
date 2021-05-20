@@ -1,0 +1,32 @@
+.nav__bg-color {
+    background-image: linear-gradient( to right, #1b3122, #1b3122, #389801);
+     
+}
+
+.dropdown__color {
+    background-color: #389801;
+}
+ 
+
+ul.navbar-nav{color:#e1fbd6;}
+
+.dropdown-item, .text-color{
+    color: #e1fbd6!important;
+}
+
+
+.nav-link {
+    color: #e1fbd6 !important;
+    font-size: 20px;
+    
+           
+}
+
+a.nav-link:hover {
+    border-bottom: 2px solid #e1fbd6;
+  } 
+
+  
+  .dropdown-item:hover {
+    color: #1b3122!important;
+}

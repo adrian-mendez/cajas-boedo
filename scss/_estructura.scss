@@ -1,0 +1,62 @@
+@import "sizes";
+/*nav*/
+.nav__right {
+    justify-content: flex-end;
+    
+}
+
+a.nav-link {
+    padding-left: 20px;
+    
+}
+
+
+
+/*body*/
+
+.text__centrar{
+    text-align: center;
+}
+
+.img__width {
+    width: 100%;
+}
+
+
+
+.Titulo__margin { 
+    margin: 40px;
+    padding: 0;
+}
+
+.texto__local--font {
+    font-size: $small+2;  /*operacion de suma*/
+    margin-top: 100px;
+    margin-right: 50px;
+    
+}  
+/*ICONOS REDES SOCIALES*/
+
+.fab{
+    font-size: $xLarge+8;
+    color: white;
+    padding-right: 30px;    
+    padding-left: 30px;
+}
+
+/*footer*/
+.footer__centrar{
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.btn-primary {
+    margin: 20px;
+}
+
+
+.copyright{
+    margin-top: 20px;
+}
+ 
