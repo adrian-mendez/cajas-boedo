@@ -44,6 +44,10 @@ a.nav-link {
     padding-left: 30px;
 }
 
+.fab:hover {
+    color: #e1fbd6;
+    font-size: $xLarge+10;
+}
 /*footer*/
 .footer__centrar{
     text-align: center;
