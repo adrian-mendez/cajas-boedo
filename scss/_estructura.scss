@@ -35,6 +35,27 @@ a.nav-link {
     margin-right: 50px;
     
 }  
+
+/*index*/
+
+.img--fixed {
+    background: url('../img/fondo-cajas2.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    
+    position: sticky;
+    height: 500px;
+}
+
+.index--grids {
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.index--grids h3 {
+    text-align: center;
+}
 /*ICONOS REDES SOCIALES*/
 
 .fab{
