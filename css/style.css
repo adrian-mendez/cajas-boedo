@@ -31,6 +31,10 @@ a.nav-link:hover {
 a.nav-link {
   padding-left: 20px; }
 
+@media only screen and (max-width: 990px) {
+  button.navbar-toggler {
+    background-color: white !important; } }
+
 /*body*/
 .text__centrar {
   text-align: center; }
