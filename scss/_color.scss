@@ -1,13 +1,21 @@
 .nav__bg-color {
      background-image: white;
-     border: 6px solid RGB(254, 109, 93);
-}
+     border: 10px solid transparent; /*RGB(254, 109, 93)*/
+     border-image: url('../img/craft-img.png') 30 stretch;
+     
+    }
 
 .footer__bg-color {
     background: url('../img/footer-img.png') no-repeat center center/cover ;
+
     height: 160px;
 }
 
+@media only screen and (max-width: 768px) {
+    .footer__bg-color {
+        height: 400px;
+    }
+}
 .dropdown__color {
    
     background-color: white!important;
